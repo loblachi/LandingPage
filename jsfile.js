@@ -1,4 +1,5 @@
 $(document).ready(function(){
+	AOS.init();
 		$(".ham").on("click", function(){
 			console.log("open mf"); 
 			$(".close").css({
